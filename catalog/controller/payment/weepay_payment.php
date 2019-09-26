@@ -115,7 +115,7 @@ class ControllerPaymentWeepayPayment extends Controller
         }
         $this->response->addHeader('Content-Type: application/json');
 
-        $this->response->setOutput(json_encode($result, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE));
+        $this->response->setOutput(json_encode($result, true));
     }
 
     public function callback()
