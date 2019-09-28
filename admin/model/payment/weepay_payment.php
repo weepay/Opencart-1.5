@@ -5,7 +5,7 @@ class ModelPaymentWeepayPayment extends Model
 
     public function install()
     {
-        $this->disableErrorSettings();
+ 
     }
 
     public function uninstall()
